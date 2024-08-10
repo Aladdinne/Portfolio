@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiJavascript1, DiAngularSimple, DiNodejs, DiJava, DiGit, DiMongodb } from "react-icons/di";
-import { SiSpringboot, SiTypescript, SiDocker, SiRabbitmq, SiPostgresql } from "react-icons/si";
-import { FaKeycdn, FaAws } from "react-icons/fa";
+import { SiSpringboot, SiTypescript, SiDocker, SiRabbitmq, SiPostgresql, SiGooglecloud, SiApachekafka } from "react-icons/si";
+import { FaKeycdn } from "react-icons/fa";
 
 function Techstack() {
     return (
@@ -44,7 +44,10 @@ function Techstack() {
                 <DiGit />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <FaAws />
+                <SiGooglecloud />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiApachekafka />
             </Col>
         </Row>
     );
