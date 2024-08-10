@@ -62,7 +62,7 @@ function Projects() {
             <ProjectCard
               imgPath={tunisiacamp}
               isBlog={false}
-              title="Ai For Social Good"
+              title="Tunisia Gamp"
               description="I participated in an integrated development project at ESPRIT Ariana, where I studied, designed, and developed a full-stack website for managing various camping services. This project involved creating back-end web services and front-end interfaces using technologies such as Java, Spring Boot, Angular, GitHub, and MySQL."
              />
           </Col>
