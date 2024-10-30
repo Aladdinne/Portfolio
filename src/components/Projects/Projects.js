@@ -26,7 +26,7 @@ function Projects() {
               imgPath={microservice}
               isBlog={false}
               title="Stock Manager"
-              description="I designed and developed a web-based platform for managing inventory and orders, along with an AI model for detecting the positions of tags after processing RFID data. The project was built using Spring Boot, Angular, and a microservices architecture, with PostgreSQL as the database. We utilized Docker for containerization, GitLab for version control, and SonarQube for code quality analysis. Project management was facilitated through Jira, and monitoring and logging were handled by the ELK stack."
+              description="I designed and developed a web-based platform for managing inventory , along with an AI model for detecting the positions of tags after processing RFID data. The project was built using Spring Boot, Angular, and a microservices architecture, with PostgreSQL as the database. We utilized Docker for containerization, GitLab for version control, and SonarQube for code quality analysis. Project management was facilitated through Jira, and monitoring and logging were handled by the ELK stack."
             />
           </Col>
 
