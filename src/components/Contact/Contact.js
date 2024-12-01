@@ -87,7 +87,6 @@ const ContactForm = () => {
 
     return (
         <section className="contact-section">
-            <Particle />
             <h2>Let's work together</h2>
             <p>
                 We are excited to collaborate with you! Whether you have a project in mind
@@ -198,6 +197,7 @@ const ContactForm = () => {
                     </p>
                 </div>
             </div>
+            <Particle />
         </section>
     );
 };
