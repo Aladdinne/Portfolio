@@ -87,6 +87,12 @@ const ContactForm = () => {
 
     return (
         <section className="contact-section">
+            {/* Alert Component */}
+            {alert.show && (
+                <div className={`alert ${alert.type}`}>
+                    {alert.message}
+                </div>
+            )}
             <h2>Let's work together</h2>
             <p>
                 We are excited to collaborate with you! Whether you have a project in mind
@@ -162,13 +168,6 @@ const ContactForm = () => {
                         {isLoading ? "Sending..." : "Send message"}
                     </button>
                 </form>
-
-                {/* Alert Component */}
-                {alert.show && (
-                    <div className={`alert ${alert.type}`}>
-                        {alert.message}
-                    </div>
-                )}
 
                 {/* Contact Details */}
                 <div className="contact-details">
