@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
-import "./Contact.css";
+import Particle from "../Particle";
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -87,6 +87,7 @@ const ContactForm = () => {
 
     return (
         <section className="contact-section">
+            <Particle />
             <h2>Let's work together</h2>
             <p>
                 We are excited to collaborate with you! Whether you have a project in mind
