@@ -26,7 +26,8 @@ function Projects() {
             <ProjectCard
               imgPath={microservice}
               isBlog={false}
-              isGit={true}
+              isGit={false}
+              confidential={true}
               title="Stock Manager"
               description="I designed and developed a web-based platform for managing inventory , along with an AI model for detecting the positions of tags after processing RFID data. The project was built using Spring Boot, Angular, and a microservices architecture, with PostgreSQL as the database. We utilized Docker for containerization, GitLab for version control, and SonarQube for code quality analysis. Project management was facilitated through Jira, and monitoring and logging were handled by the ELK stack."
             />
@@ -36,7 +37,8 @@ function Projects() {
             <ProjectCard
               imgPath={logement}
               isBlog={false}
-              isGit={true}
+              isGit={false}
+              confidential={true}
               title="IntedGroup"
               description="I am responsible for managing accommodations and reservations for a platform used by Intedgroup, a university group. This project is currently in production and utilizes a modern architecture with Node.js for the backend, Angular for the frontend, and MongoDB as the database. My role involves ensuring the smooth operation and optimization of these features, providing a seamless user experience, and efficiently managing real-time data."
             />
@@ -57,7 +59,8 @@ function Projects() {
             <ProjectCard
               imgPath={digismart}
               isBlog={false}
-              isGit={true}
+              isGit={false}
+              confidential={true}
               title="Digi Smart"
               description="I led the study, design, programming, and implementation of a web application to manage the daily activities of a business. This application was developed using technologies such as Spring Boot, Spring Security, Spring Session, Angular, MongoDB, Git, and Bootstrap."
             />
@@ -88,6 +91,7 @@ function Projects() {
                 imgPath={reclamation}
                 isBlog={false}
                 isGit={false}
+                confidential={true}
                 demoLink={"https://drive.google.com/file/d/13bbMFOoJ-vj0taqySoDbdWERRn1kQKds/view?usp=sharing"}
                 title="Reclamation"
                 description="I managed user accounts, including creating, updating, and deleting profiles. I also handled complaints, overseeing their reception, processing, and resolution while ensuring an optimal user experience, using Spring Boot, Angular, and MySQL."
