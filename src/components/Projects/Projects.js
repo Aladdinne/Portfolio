@@ -36,9 +36,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={logement}
-              isBlog={false}
-              isGit={false}
-              confidential={true}
+              isUrl={true}
+              url={"https://ims.intedgroup.com/"}
               title="IntedGroup"
               description="I am responsible for managing accommodations and reservations for a platform used by Intedgroup, a university group. This project is currently in production and utilizes a modern architecture with Node.js for the backend, Angular for the frontend, and MongoDB as the database. My role involves ensuring the smooth operation and optimization of these features, providing a seamless user experience, and efficiently managing real-time data."
             />

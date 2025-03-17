@@ -35,6 +35,17 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
+          {props.isUrl  && (
+              <Button
+                  variant="primary"
+                  href={props.url}
+                  target="_blank"
+                  style={{ marginLeft: "10px" }}
+              >
+                  <CgScreen /> &nbsp;
+                  {"urls"}
+              </Button>
+          )}
           {props.confidential && (
               <Button
                   variant="primary"
