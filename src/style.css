@@ -928,4 +928,26 @@ form button:hover {
     opacity: 0;
     transform: translateX(-50%) translateY(-20px);
   }
+
 }
+
+.certifications-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.certification-card img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.certification-card img:hover {
+  transform: scale(1.05);
+}
+

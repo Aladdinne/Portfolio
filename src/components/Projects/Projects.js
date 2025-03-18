@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col , Image } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import digismart from "../../Assets/Projects/digi smart.png";
@@ -9,6 +9,14 @@ import microservice from "../../Assets/Projects/microsservice.png";
 import tunisiacamp from "../../Assets/Projects/tunisiacamp.png";
 import logement from "../../Assets/Projects/logement.png";
 import reclamation from "../../Assets/Projects/reclamation.png";
+
+// Certification Images
+import cert1 from "../../Assets/Certifications/certif1.jpg";
+import cert2 from "../../Assets/Certifications/certif2.jpg";
+import cert3 from "../../Assets/Certifications/certif3.jpg";
+import cert4 from "../../Assets/Certifications/certif4.jpg";
+import cert5 from "../../Assets/Certifications/certif5.jpg";
+import cert6 from "../../Assets/Certifications/certif6.jpeg";
 
 function Projects() {
   return (
@@ -105,6 +113,21 @@ function Projects() {
             </p>
           </Col>
         </Row>
+
+        {/* Certifications Section */}
+        <h2 className="project-heading">
+          My <strong className="purple">Certifications</strong>
+        </h2>
+
+        <Row className="certifications-row">
+          {[cert1, cert2, cert3, cert4, cert5, cert6].map((cert, index) => (
+              <Col key={index} md={2} sm={4} xs={6} className="certification-card">
+                <Image src={cert} alt={`Certification ${index + 1}`} fluid rounded />
+              </Col>
+          ))}
+        </Row>
+
+
       </Container>
     </Container>
   );
