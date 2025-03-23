@@ -115,13 +115,13 @@ function Projects() {
         </Row>
 
         {/* Certifications Section */}
-        <h2 className="project-heading">
-          My <strong className="purple">Certifications</strong>
-        </h2>
+        {/*<h2 className="project-heading">*/}
+        {/*  My <strong className="purple">Certifications</strong>*/}
+        {/*</h2>*/}
 
         <Row className="certifications-row">
           {[cert1, cert2, cert3, cert4, cert5, cert6].map((cert, index) => (
-              <Col key={index} md={2} sm={4} xs={6} className="certification-card">
+              <Col key={index} xs={2} sm={2} md={1}  className="certification-card">
                 <Image src={cert} alt={`Certification ${index + 1}`} fluid rounded />
               </Col>
           ))}
