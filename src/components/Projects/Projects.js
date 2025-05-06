@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col , Image } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import ecommerce from "../../Assets/Projects/ecommerce.png";
 import digismart from "../../Assets/Projects/digi smart.png";
 import adas from "../../Assets/Projects/adas.png";
 import workflow from "../../Assets/Projects/workflow.png";
@@ -30,6 +31,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={ecommerce}
+                isBlog={false}
+                isGit={true}
+                ghLink="https://github.com/Aladdinne/ecommerce-microservices.git"
+                confidential={false}
+                title=<p>Ecommerce <span class="badge bg-warning text-dark">In Progress</span> </p>
+                description="Micro Marketplace is a scalable e-commerce platform built with a microservices architecture using Spring Boot, Spring Cloud Gateway, Eureka, and Keycloak for secure and dynamic service management. It ensures resilience with Resilience4j, enables real-time interactions via Apache Kafka, and offers full observability through Micrometer, Zipkin, Prometheus, and Grafana. Designed for high performance and modularity, it’s an ideal foundation for modern, feature-rich online marketplaces."
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={microservice}
