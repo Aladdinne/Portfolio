@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col , Image } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ecommerce from "../../Assets/Projects/ecommerce.png";
@@ -38,7 +38,8 @@ function Projects() {
                 isBlog={false}
                 isGit={true}
                 confidential={false}
-                title=<p>Ecommerce <span class="badge bg-warning text-dark">In Progress</span> </p>
+                title="Ecommerce"
+                // title= {<p> Ecommerce <span class="badge bg-warning text-dark">In Progress</span> </p>}
                 description="Micro Marketplace is a scalable e-commerce platform built with a microservices architecture using Spring Boot, Spring Cloud Gateway, Eureka, and Keycloak for secure and dynamic service management. It ensures resilience with Resilience4j, enables real-time interactions via Apache Kafka, and offers full observability through Micrometer, Zipkin, Prometheus, and Grafana. The frontend is developed with React, providing a dynamic and responsive user experience. Designed for high performance and modularity, it’s an ideal foundation for modern, feature-rich online marketplaces."            />
           </Col>
 
@@ -132,11 +133,13 @@ function Projects() {
         {/*</h2>*/}
 
         <Row className="certifications-row">
-          {[cert1, cert2, cert3, cert4, cert5, cert6].map((cert, index) => (
-              <Col key={index} xs={2} sm={2} md={1}  className="certification-card">
-                <Image src={cert} alt={`Certification ${index + 1}`} fluid rounded />
-              </Col>
-          ))}
+
+              <div  xs={2} sm={2} md={1}  className="image-row">
+                {[cert1, cert2, cert3, cert4, cert5, cert6].map((cert, index) => (
+                <img key={index} src={cert} className="zoom-image" alt={`Certification ${index + 1}`}  />
+                ))}
+              </div>
+
         </Row>
 
 
