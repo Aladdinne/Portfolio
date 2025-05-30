@@ -18,6 +18,8 @@ import cert3 from "../../Assets/Certifications/certif3.jpg";
 import cert4 from "../../Assets/Certifications/certif4.jpg";
 import cert5 from "../../Assets/Certifications/certif5.jpg";
 import cert6 from "../../Assets/Certifications/certif6.jpeg";
+import cert7 from "../../Assets/Certifications/certif7.jpg";
+import cert8 from "../../Assets/Certifications/certif8.jpg";
 
 function Projects() {
   return (
@@ -135,7 +137,7 @@ function Projects() {
         <Row className="certifications-row">
 
               <div  xs={2} sm={2} md={1}  className="image-row">
-                {[cert1, cert2, cert3, cert4, cert5, cert6].map((cert, index) => (
+                {[cert1, cert2, cert3, cert4, cert5, cert6, cert7, cert8].map((cert, index) => (
                 <img key={index} src={cert} className="zoom-image" alt={`Certification ${index + 1}`}  />
                 ))}
               </div>
