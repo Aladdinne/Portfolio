@@ -82,10 +82,10 @@ function Works() {
                             <li>Création d’applications de <strong>gestion immobilière</strong> (biens, contrats, rendez-vous, interface admin).</li>
                             <li>Implémentation de <strong>dashboards personnalisés</strong> pour la visualisation de données métier en temps réel.</li>
                             <li><strong>Frontend</strong> développé en React ou Angular selon les préférences du client (UI/UX responsive et dynamique).</li>
-                            <li><strong>Backend</strong> en Node.js (Express), connecté à des bases de données MongoDB ou PostgreSQL selon les besoins du projet.</li>
-                            <li>Mise en place de solutions <strong>CI/CD</strong>, hébergement cloud , et documentation technique pour livraison professionnelle.</li>
+                            <li><strong>Backend</strong> en Node.js (Express) , Java , connecté à des bases de données MongoDB ou PostgreSQL selon les besoins du projet.</li>
+                            {/*<li>Mise en place de solutions <strong>CI/CD</strong> , et documentation technique pour livraison professionnelle.</li>*/}
                         </ul>
-                        <p><strong>Technologies :</strong> React, Angular, Node.js, Express, MongoDB, PostgreSQL, Firebase, GitHub Actions</p>
+                        <p><strong>Technologies :</strong> Angular, React, Java, Node.js, MongoDB, PostgreSQL</p>
                         <div  xs={2} sm={2} md={1}  className="image-row">
                             {[free1, free2, free3, free4].map((free, index) => (
                                 <img key={index} src={free} className="zoom-image" alt={`Project ${index + 1}`}  />
