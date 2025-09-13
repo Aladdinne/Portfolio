@@ -20,6 +20,9 @@ import cert5 from "../../Assets/Certifications/certif5.jpg";
 import cert6 from "../../Assets/Certifications/certif6.jpeg";
 import cert7 from "../../Assets/Certifications/certif7.jpg";
 import cert8 from "../../Assets/Certifications/certif8.jpg";
+import cert9 from "../../Assets/Certifications/certif9.jpg";
+
+import shape from "../../Assets/Shape2.svg";
 
 function Projects() {
   return (
@@ -29,6 +32,10 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
+        <div className="icon shape" id="icon4" >
+          <img src={shape} alt="Shape" />
+        </div>
+
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
@@ -134,16 +141,18 @@ function Projects() {
         {/*  My <strong className="purple">Certifications</strong>*/}
         {/*</h2>*/}
 
+
         <Row className="certifications-row">
 
               <div  xs={2} sm={2} md={1}  className="image-row">
-                {[cert1, cert2, cert3, cert4, cert5, cert6, cert7, cert8].map((cert, index) => (
+                {[cert1, cert2, cert3, cert4, cert5, cert6, cert7, cert8, cert9].map((cert, index) => (
                 <img key={index} src={cert} className="zoom-image" alt={`Certification ${index + 1}`}  />
                 ))}
               </div>
 
         </Row>
-
+        <hr></hr>
+        <hr></hr>
 
       </Container>
     </Container>

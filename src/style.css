@@ -457,13 +457,16 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+  /*font-weight: bold;*/
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0px 5px 7px 9px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
-  opacity: 0.9 !important;
+  /*opacity: 0.9 !important;*/
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
@@ -524,7 +527,7 @@ button:focus {
 }
 
 .image-row img {
-  max-width: 120px;
+  max-width: 160px;
   height: auto;
 }
 
@@ -977,6 +980,15 @@ form button:hover {
 .certification-card img:hover {
   transform: scale(2);
   cursor: pointer;
+}
+
+.shape{
+  transform: rotate(-187deg) ;
+  width:300px ;
+  height:300px ;
+  position: absolute ;
+  top:50px ;
+  right:300px ;
 }
 
 
