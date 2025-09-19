@@ -10,6 +10,7 @@ import microservice from "../../Assets/Projects/microsservice.png";
 import tunisiacamp from "../../Assets/Projects/tunisiacamp.png";
 import logement from "../../Assets/Projects/logement.png";
 import reclamation from "../../Assets/Projects/reclamation.png";
+import jeux from "../../Assets/Projects/jeux.png";
 
 // Certification Images
 import cert1 from "../../Assets/Certifications/certif1.jpg";
@@ -40,6 +41,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={jeux}
+                isUrl={true}
+                url={"https://brain-match.vercel.app/"}
+                title="BrainMatch"
+                description="BrainMatch is an engaging and scalable memory and association game built with a modular architecture using modern JavaScript frameworks for a smooth and secure experience. It offers adaptive levels and real-time scoring to enhance cognitive skills, and includes detailed analytics to track user progress and performance. The frontend is developed with Vue.js, providing a dynamic and responsive user interface. Designed for high performance and extensibility, it also integrates Open Graph for optimized content sharing, making it an ideal foundation for creating fun, feature-rich brain-training experiences."
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
