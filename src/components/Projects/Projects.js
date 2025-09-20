@@ -44,16 +44,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={jeux}
-                isUrl={true}
-                url={"https://brain-match.vercel.app/"}
-                title="BrainMatch"
-                description="BrainMatch is an engaging and scalable memory and association game built with a modular architecture using modern JavaScript frameworks for a smooth and secure experience. It offers adaptive levels and real-time scoring to enhance cognitive skills, and includes detailed analytics to track user progress and performance. The frontend is developed with Vue.js, providing a dynamic and responsive user interface. Designed for high performance and extensibility, it also integrates Open Graph for optimized content sharing, making it an ideal foundation for creating fun, feature-rich brain-training experiences."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
                 imgPath={ecommerce}
                 isBlog={false}
                 isGit={true}
@@ -81,6 +71,16 @@ function Projects() {
               url={"https://ims.intedgroup.com/"}
               title="IntedGroup"
               description="I am responsible for managing accommodations and reservations for a platform used by Intedgroup, a university group. This project is currently in production and utilizes a modern architecture with Node.js for the backend, Angular for the frontend, and MongoDB as the database. My role involves ensuring the smooth operation and optimization of these features, providing a seamless user experience, and efficiently managing real-time data."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={jeux}
+                isUrl={true}
+                url={"https://brain-match.vercel.app/"}
+                title="BrainMatch"
+                description="BrainMatch is an engaging and scalable memory and association game built with a modular architecture using modern JavaScript frameworks for a smooth and secure experience. It offers adaptive levels and real-time scoring to enhance cognitive skills, and includes detailed analytics to track user progress and performance. The frontend is developed with Vue.js, providing a dynamic and responsive user interface. Designed for high performance and extensibility, it also integrates Open Graph for optimized content sharing, making it an ideal foundation for creating fun, feature-rich brain-training experiences."
             />
           </Col>
 
